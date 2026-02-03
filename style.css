@@ -1,0 +1,39 @@
+/* existing styles stay – ADD BELOW */
+
+.form {
+  max-width: 500px;
+  margin: auto;
+  display: grid;
+  gap: 15px;
+}
+
+.form input,
+.form select,
+.form textarea {
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+.form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form button {
+  padding: 14px;
+  border-radius: 30px;
+  border: none;
+  background: #00d4ff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.footer {
+  background: #0a0c14;
+  padding: 25px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+}
